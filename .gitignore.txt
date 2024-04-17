@@ -1,0 +1,8 @@
+./Grid_data
+./wind_power_data
+*.pbix/
+*.pbit/
+*.dat/
+*.bin/
+*-*.pbix/
+*.log
