@@ -62,11 +62,11 @@ def main():
 
 # Function to load the dataset
 def load_data():
-    return pd.read_csv("C:\\Users\\admin\\Downloads\\Hackwave-vs\\9_Sustainability_and_Environment\\gbr_updated_dataset.csv")  
+    return pd.read_csv("gbr_updated_dataset.csv")  
 
 # Function to load the predicted data for 2024
 def load_data1():
-    return pd.read_csv("C:\\Users\\admin\\Downloads\\Hackwave-vs\\9_Sustainability_and_Environment\\forecasted_power_generation_2024.csv")  
+    return pd.read_csv("forecasted_power_generation_2024.csv")  
 
 
 def predict_power_generation_param(air_temperature, pressure, wind_speed, filtered_data):
@@ -79,7 +79,7 @@ def predict_power_generation_param(air_temperature, pressure, wind_speed, filter
     return predictions
 
 # Load the dataset
-data = pd.read_csv("C:\\Users\\admin\\Downloads\\Hackwave-vs\\9_Sustainability_and_Environment\\final_data.csv")  # Update with your dataset path
+data = pd.read_csv("final_data.csv")  # Update with your dataset path
 
 # Run the Streamlit app
 if __name__ == "__main__":
